@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/States_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="States in Nigeria: " />
+
+    <Spinner
+        android:id="@+id/States_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:prompt="@id/States_spinner"
+        />
+
+    <TextView
+        android:id="@+id/LG_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:text="Local Gov't in AkwaIbom"/>
+
+
+
+    <Spinner
+        android:id="@+id/LG_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:prompt="@id/LG_spinner"
+        />
+
+</LinearLayout>
